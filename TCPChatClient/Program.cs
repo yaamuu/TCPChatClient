@@ -10,6 +10,7 @@ namespace TCPChatClient
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("write your answer");
         }
     }
 }
