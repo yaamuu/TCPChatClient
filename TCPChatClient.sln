@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPChatClient", "TCPChatClient\TCPChatClient.csproj", "{600654BA-5E30-44D4-A7D8-BCC14B6776ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{600654BA-5E30-44D4-A7D8-BCC14B6776ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600654BA-5E30-44D4-A7D8-BCC14B6776ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600654BA-5E30-44D4-A7D8-BCC14B6776ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600654BA-5E30-44D4-A7D8-BCC14B6776ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94434B61-C860-4908-8537-CBE4F7A9B094}
+	EndGlobalSection
+EndGlobal
