@@ -57,6 +57,7 @@ namespace TCPChatClient
                 }
 
                 Console.ReadKey();
+                Console.WriteLine("Press enter to stop the client!");
             }
             catch (Exception e)
             {
