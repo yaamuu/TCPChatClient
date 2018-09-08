@@ -25,6 +25,10 @@ namespace TCPChatClient
 
                 // Step no: 3 
                 // when TCP connection is established then client send (bytes of data) to server
+                // 1) we can use "localhost" , it mean our own local machine IP
+                // 2) "127.0.0.1" loopback IP ( when Client and Server both used in a same machine)
+                // 3) Hostname ( server machine IP name --> 192.168.1.33)- Client and server are on the different machine 
+                // In client socket you should refer the server hostname in terms of IP address for this particular machine
                 using (_clientSocket = new TcpClient("127.0.0.1", 6789))
                 {
                     using (_nstream = _clientSocket.GetStream())
@@ -55,9 +59,9 @@ namespace TCPChatClient
                         }
                     }
                 }
-
-                Console.ReadKey();
                 Console.WriteLine("Press enter to stop the client!");
+                Console.ReadKey();
+                
             }
             catch (Exception e)
             {
